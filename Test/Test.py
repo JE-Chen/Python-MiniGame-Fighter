@@ -1,11 +1,5 @@
 # -*- coding:utf-8 -*-
 import tkinter as tk
-import tkinter.filedialog
-import pyautogui
-import os
-from PIL import ImageGrab
-from time import sleep
-from tkinter import StringVar
 
 '''# 创建tkinter主窗口
 root = tkinter.Tk()
@@ -167,7 +161,7 @@ while True:
 '''
 root = tk.Tk()
 root.geometry("500x500")
-photo = tk.PhotoImage(file ="../Source/Picture/back_ground.png")
+photo = tk.PhotoImage(file="../Source/Picture/back_ground.png")
 w = tk.Label(root, image=photo)
 w.place(x=0, y=0, relwidth=1, relheight=1)
 ent = tk.Entry(root)
